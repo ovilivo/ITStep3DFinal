@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4241298280881522439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2301058981634009862}
+  - component: {fileID: 2157438868663680190}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2301058981634009862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4241298280881522439}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2157438868663680190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4241298280881522439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f311dd9fa877714ebcf4de39586c6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  _masterVolume: 1
+  _poolSize: 8
+  _sfx:
+  - id: 0
+    clip: {fileID: 8300000, guid: ba9d812b83bfe6847b5bcf1e1b235e9d, type: 3}
+    volume: 1
+    pitchVariation: 0.04
+    playWhenPaused: 0
+  - id: 1
+    clip: {fileID: 8300000, guid: cdd1fd90b8baa674dbcc4af8bfff98c5, type: 3}
+    volume: 1
+    pitchVariation: 0.08
+    playWhenPaused: 0
+  - id: 2
+    clip: {fileID: 8300000, guid: 3170f9a8450e4d9429aa602c351d45ba, type: 3}
+    volume: 1
+    pitchVariation: 0.1
+    playWhenPaused: 0
+  - id: 3
+    clip: {fileID: 8300000, guid: 8825127cf9da31f4d9dd0780f596188e, type: 3}
+    volume: 1
+    pitchVariation: 0.03
+    playWhenPaused: 0
+  - id: 4
+    clip: {fileID: 8300000, guid: 029c8d6e4212de041ae4a185b40a1df3, type: 3}
+    volume: 1
+    pitchVariation: 0
+    playWhenPaused: 0
+  - id: 5
+    clip: {fileID: 8300000, guid: 94170ce637b0e9d4c96a988652a4a446, type: 3}
+    volume: 1
+    pitchVariation: 0
+    playWhenPaused: 0
+  - id: 6
+    clip: {fileID: 8300000, guid: 41a4790d72430694799d4703edae97aa, type: 3}
+    volume: 1
+    pitchVariation: 0
+    playWhenPaused: 0
+  - id: 7
+    clip: {fileID: 8300000, guid: cabfb06a2bc264248a3ef6cce1e71ce9, type: 3}
+    volume: 1
+    pitchVariation: 0
+    playWhenPaused: 0
+  - id: 8
+    clip: {fileID: 8300000, guid: 3810867780fc2a34988715a69e3f05c1, type: 3}
+    volume: 1
+    pitchVariation: 0.02
+    playWhenPaused: 1
